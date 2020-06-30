@@ -1,0 +1,27 @@
+{
+  "name": "curso-spa",
+  "version": "1.0.0",
+  "description": "Single page application con vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Checho",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "copy-webpack-plugin": "^6.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
